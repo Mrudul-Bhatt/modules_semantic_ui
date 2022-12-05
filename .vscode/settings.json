@@ -1,5 +1,7 @@
 {
-  "editor.fontSize": 20,
-  "editor.fontFamily": "Consolas, 'Courier New', Monospace",
-  "editor.bracketPairColorization.enabled": false
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Source Code Pro",
+  "editor.bracketPairColorization.enabled": false,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 18
 }

@@ -1,0 +1,5 @@
+/* If parent doesn't provide anything for header then this element will not be shown */
+
+div.ui.icon.header:empty {
+  display: none;
+}

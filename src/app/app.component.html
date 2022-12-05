@@ -1,5 +1,29 @@
 <!-- If directly used they will act as Domain components -->
-<app-elements-home></app-elements-home>
-<app-collections-home></app-collections-home>
+<!-- <app-elements-home></app-elements-home> -->
+<!-- <app-collections-home></app-collections-home> -->
 
-<router-outlet></router-outlet>
+<!-- Anchor tag with href causes screen to reload to fetch data from server, we will use angular link for routing -->
+<!-- <a href="/elements">Elements</a> -->
+<!-- <a href="/collections">Collections</a> -->
+
+<!-- This does not reload -->
+<!-- <a routerLink="/elements">Elements</a> -->
+<!-- <a routerLink="/collections">Collections</a> -->
+
+<!-- This resolves the value of routing, whichever component matches route will be displayed here -->
+<!-- <router-outlet></router-outlet> -->
+
+<div class="ui container">
+  <div class="ui secondary pointing menu">
+    <!-- if the current link is on screen a class of 'active' will be applied on it  -->
+    <a routerLink="/elements" routerLinkActive="active" class="item">
+      Elements
+    </a>
+    <a routerLink="/collections" routerLinkActive="active" class="item">
+      Collections
+    </a>
+  </div>
+  <div class="ui segment">
+    <router-outlet></router-outlet>
+  </div>
+</div>
