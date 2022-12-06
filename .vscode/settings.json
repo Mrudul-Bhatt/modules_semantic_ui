@@ -1,7 +1,11 @@
 {
-  "editor.fontSize": 16,
-  "editor.fontFamily": "Source Code Pro",
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Consolas, 'Courier New', Monospace",
   "editor.bracketPairColorization.enabled": false,
-  "editor.wordWrap": "on",
-  "terminal.integrated.fontSize": 18
+  "editor.wordWrap": "wordWrapColumn",
+  "terminal.integrated.fontSize": 16,
+  "prettier.bracketSameLine": true,
+  "prettier.printWidth": 120,
+  "prettier.proseWrap": "always",
+  "editor.wordWrapColumn": 120
 }
